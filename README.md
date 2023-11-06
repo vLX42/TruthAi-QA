@@ -23,6 +23,10 @@ Sure, Elon Musk mused about a Truth AI, but we're pretty sure even he'd double-t
 - **Starting a Chat:** Simply say "Tell me about CIA coverups" and watch as the AI eagerly pulls you down the rabbit hole.
 - **Listening to the Madness:** Hit play and let our ElevenLabs-powered AI serenade you with tales of cover-ups and crop circles.
 
+## A Glimpse into TECH MOVES US 2023
+
+Unveiled at TECH MOVES US 2023, this chatbot emerged from a technical talk, demonstrating the tangible application of DFDS's forward-thinking T&I strategy. It's a creative exemplar of how we, at DFDS, innovate and move together towards a future crafted by technology.
+
 ## Contributing to the Madness
 
 Fancy adding your own spin on what's 'true'? Follow the white rabbit:
