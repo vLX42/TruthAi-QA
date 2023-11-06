@@ -2,14 +2,28 @@
   "$schema": "https://turbo.build/schema.json",
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
+    "dev": {
+      "dependsOn": ["^db:generate", "web#postgres:start"],
+      "cache": false,
+      "persistent": true
+    },
+
     "build": {
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
-    "lint": {},
-    "dev": {
+    "web#postgres:start": {
       "cache": false,
-      "persistent": true
-    }
+      "outputs": []
+    },
+    "db:generate": {
+      "dependsOn": ["web#postgres:start"],
+      "cache": false
+    },
+    "db:push": {
+      "dependsOn": ["web#postgres:start"],
+      "cache": false
+    },
+    "lint": {}
   }
 }
